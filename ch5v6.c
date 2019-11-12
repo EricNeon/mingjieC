@@ -13,13 +13,13 @@ int main(void)
 
     a = b = 1.5;
 
-    printf("a:= %d\n", a);
+    printf("a:= %.1f\n", a);
     printf("b:= %d\n", b);
     
     return 0;
 }
 
 /*
-a:= 0
+a:= 1.0
 b:= 1
 */
